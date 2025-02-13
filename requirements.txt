@@ -1,0 +1,14 @@
+fastapi==0.110.0
+uvicorn==0.27.1
+python-multipart==0.0.9
+aiohttp==3.9.3
+pillow==10.2.0
+pandas==2.2.0
+numpy==1.26.4
+python-dateutil==2.8.2
+markdown2==2.4.12
+sqlalchemy==2.0.27
+requests==2.31.0
+python-dotenv==1.0.1
+pydantic==2.6.1
+GitPython==0.3.2
