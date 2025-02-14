@@ -17,13 +17,15 @@ WORKDIR /app
 # Copy requirements first to leverage Docker cache
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --upgrade gitpython
+
 
 # Copy the rest of the application
 COPY . .
 
 # Create data directory
 RUN mkdir -p /data
-
+    
 # Expose the port
 EXPOSE 8000
 
